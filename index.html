@@ -7,90 +7,11 @@
         <link rel="icon" type="image/x-icon" href="images\favicon.svg">
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        
-        <style>
-          .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            user-select: none;
-          }
-    
-          @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-              font-size: 3.5rem;
-            }
-          }
-    
-          .b-example-divider {
-            width: 100%;
-            height: 3rem;
-            background-color: rgba(0, 0, 0, .1);
-            border: solid rgba(0, 0, 0, .15);
-            border-width: 1px 0;
-            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-          }
-    
-          .b-example-vr {
-            flex-shrink: 0;
-            width: 1.5rem;
-            height: 100vh;
-          }
-    
-          .bi {
-            vertical-align: -.125em;
-            fill: currentColor;
-          }
-    
-          .nav-scroller {
-            position: relative;
-            z-index: 2;
-            height: 2.75rem;
-            overflow-y: hidden;
-          }
-    
-          .nav-scroller .nav {
-            display: flex;
-            flex-wrap: nowrap;
-            padding-bottom: 1rem;
-            margin-top: -1px;
-            overflow-x: auto;
-            text-align: center;
-            white-space: nowrap;
-            -webkit-overflow-scrolling: touch;
-          }
-    
-          .btn-bd-primary {
-            --bd-violet-bg: #712cf9;
-            --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
-    
-            --bs-btn-font-weight: 600;
-            --bs-btn-color: var(--bs-white);
-            --bs-btn-bg: var(--bd-violet-bg);
-            --bs-btn-border-color: var(--bd-violet-bg);
-            --bs-btn-hover-color: var(--bs-white);
-            --bs-btn-hover-bg: #6528e0;
-            --bs-btn-hover-border-color: #6528e0;
-            --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-            --bs-btn-active-color: var(--bs-btn-hover-color);
-            --bs-btn-active-bg: #5a23c8;
-            --bs-btn-active-border-color: #5a23c8;
-          }
-    
-          .bd-mode-toggle {
-            z-index: 1500;
-          }
-    
-          .bd-mode-toggle .dropdown-menu .active .bi {
-            display: block !important;
-          }
-        </style>
         <link href="style.css" rel="stylesheet" id="style">
         <link href="animate.css" rel="stylesheet" id="animate">
     </head>
     <body>
-      <div class="d-flex h-100 text-center text-bg-dark">
+      <div class="d-flex h-100 text-center text-bg-dark ">
       
       <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
         <symbol id="check2" viewBox="0 0 16 16">
@@ -109,24 +30,28 @@
       </svg>
   
       
-      <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column sticky-top">
         <header class="mb-auto">
           <div>
             <h3 class="float-md-start mb-0">CRISPR-Cas9</h3>
             <nav class="nav nav-masthead justify-content-center float-md-end">
               <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
-              <a class="nav-link fw-bold py-1 px-0" href="#">Features</a>
-              <a class="nav-link fw-bold py-1 px-0" href="#">Advantages & Disadvantages</a>
-              <a class="nav-link fw-bold py-1 px-0" href="#">Pricing</a>
-              <a class="nav-link fw-bold py-1 px-0" href="#">Contact</a>
+              <a class="nav-link fw-bold py-1 px-0" href="features">Features</a>
+              <a class="nav-link fw-bold py-1 px-0" href="advantages-disadvantages">Advantages & Disadvantages</a>
+              <a class="nav-link fw-bold py-1 px-0" href="pricing">Pricing</a>
             </nav>
           </div>
         </header>
       
+        <div class="pb-5"></div>
+        <div class="pb-5"></div>
+
         <main class="px-3">
           <h1>What is CRISPR?</h1>
           <p class="lead">CRISPR (Clustered Regularly Interspaced Palindromic Repeats) is a gene editing technology, derived from a bacterial defence system. CRISPR and CRISPR-Cas9 are used generally to refer to the various CRISPR-Cas9, -CPF1 and other systems that target specific sections of genetic code to edit.</p>
         </main>
+        <div class="pb-5"></div>
+        <div class="pb-5"></div>
       </div>
     </div>
 
@@ -136,85 +61,68 @@
             <div id="timeline">
             <div class="row timeline-movement timeline-movement-top">
               <div class="timeline-badge timeline-future-movement">
-                  <p>2018</p>
+                  <p>1993</p>
               </div>
             </div>
+
             <div class="row timeline-movement">
-              <div class="timeline-badge center-left">
-                
-              </div>
-              <div class="col-sm-6  timeline-item">
-                <div class="row">
-                  <div class="col-sm-11">
-                    <div class="timeline-panel credits  anim animate fadeInLeft">
-                      <ul class="timeline-panel-ul">
-                        <div class="lefting-wrap">
-                          <li class="img-wraping"><a href="#"><img src="http://via.placeholder.com/250/000000" class="img-responsive" alt="user-image" /></a></li>
-                        </div>
-                        <div class="righting-wrap">
-                          <li><a href="#" class="importo">Mussum ipsum cacilds</a></li>
-                          <li><span class="causale" style="color:#000; font-weight: 600;">Developer </span> </li>
-                          <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                          <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 13/01/2018, 13:05"</small></p> </li>
-                        </div>
-                        <div class="clear"></div>
-                      </ul>
-                    </div>
-      
-                  </div>
-                </div>
-              </div>
-            </div>
-      
-            <div class="row timeline-movement">
-              <div class="timeline-badge center-right">
-              
-              </div>
-              <div class="offset-sm-6 col-sm-6  timeline-item">
-                <div class="row">
-                  <div class="offset-sm-1 col-sm-11">
-                    <div class="timeline-panel debits  anim animate  fadeInRight">
-                      <ul class="timeline-panel-ul">
-                        <div class="lefting-wrap">
-                          <li class="img-wraping"><a href="#"><img src="http://via.placeholder.com/250/000000" class="img-responsive" alt="user-image" /></a></li>
-                        </div>
-                        <div class="righting-wrap">
-                          <li><a href="#" class="importo">Mussum ipsum cacilds</a></li>
-                          <li><span class="causale" style="color:#000; font-weight: 600;">Web Designer </span> </li>
-                          <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                          <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 12/01/2018, 13:05"</small></p> </li>
-                        </div>
-                        <div class="clear"></div>
-                      </ul>
-                    </div>
-      
-                  </div>
-                </div>
-              </div>
-            </div>
-      
-            <div class="row timeline-movement">
-              <div class="timeline-badge center-left">
-                
-              </div>
+              <div class="timeline-badge center-right"></div>
               <div class="col-sm-6  timeline-item">
                 <div class="row">
                   <div class="col-sm-11">
                     <div class="timeline-panel credits  anim animate  fadeInLeft">
                       <ul class="timeline-panel-ul">
-                        <div class="lefting-wrap">
-                          <li class="img-wraping"><a href="#"><img src="http://via.placeholder.com/250/000000" class="img-responsive" alt="user-image" /></a></li>
-                        </div>
-                        <div class="righting-wrap">
-                          <li><a href="#" class="importo">Mussum ipsum cacilds</a></li>
-                          <li><span class="causale" style="color:#000; font-weight: 600;">Engineer </span> </li>
-                          <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                          <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11/01/2018, 13:05"</small></p> </li>
-                        </div>
+                          <li><a class="importo"><p class="text-end">Discovery of CRISPR locus</p></a></li>
+                          <li><span class="causale"><p class="text-end">Francisco Mojica became the first researcher to characterise what is called a ‘CRISPR locus’; correctly hypothesising that it was an adaptive immune system.</p></span> </li>
                         <div class="clear"></div>
                       </ul>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row timeline-movement timeline-movement-top">
+              <div class="timeline-badge timeline-future-movement">
+                  <p>2005</p>
+              </div>
+            </div>
       
+            <div class="row timeline-movement">
+              <div class="timeline-badge center-right"></div>
+              <div class="offset-sm-6 col-sm-6  timeline-item">
+                <div class="row">
+                  <div class="offset-sm-1 col-sm-11">
+                    <div class="timeline-panel debits  anim animate  fadeInRight">
+                      <ul class="timeline-panel-ul">
+                          <li><a class="importo">Discovery of PAM</a></li>
+                          <li><span class="causale">Alexander Bolotin found an unusual CRISPR locus, lacking some of the already discovered Cas genes, and instead having new cas genes. This sequence, PAM that Bolotin discovered, is now used for target recognition in CRISPR technologies.</span> </li>
+                        <div class="clear"></div>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="row timeline-movement timeline-movement-top">
+              <div class="timeline-badge timeline-future-movement">
+                  <p>2008</p>
+              </div>
+            </div>
+
+            <div class="row timeline-movement">
+              <div class="timeline-badge center-left"></div>
+              <div class="col-sm-6  timeline-item">
+                <div class="row">
+                  <div class="col-sm-11">
+                    <div class="timeline-panel credits  anim animate  fadeInLeft">
+                      <ul class="timeline-panel-ul">
+                          <li><a class="importo">Discovery that crRNAs guide Cas proteins</a></li>
+                          <li><span class="causale">Luciano Marraffini and Erik Sontheimer demonstrated that crRNAs guide the Cas proteins to target DNA molecules. They noted that this system could be a powerful tool if it could be used in non-bacterial systems.</span> </li>
+                        <div class="clear"></div>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -222,57 +130,43 @@
             
             <div class="row timeline-movement timeline-movement-top">
               <div class="timeline-badge timeline-future-movement">
-                  <p>2017</p>
+                  <p>2010</p>
               </div>
             </div>
             
             
             <div class="row timeline-movement">
-              <div class="timeline-badge center-right">
-              
-              </div>
+              <div class="timeline-badge center-right"></div>
               <div class="offset-sm-6 col-sm-6  timeline-item">
                 <div class="row">
                   <div class="offset-sm-1 col-sm-11">
                     <div class="timeline-panel debits  anim animate  fadeInRight">
                       <ul class="timeline-panel-ul">
-                        <div class="lefting-wrap">
-                          <li class="img-wraping"><a href="#"><img src="http://via.placeholder.com/250/000000" class="img-responsive" alt="user-image" /></a></li>
-                        </div>
-                        <div class="righting-wrap">
-                          <li><a href="#" class="importo">Mussum ipsum cacilds</a></li>
-                          <li><span class="causale" style="color:#000; font-weight: 600;">Web Designer </span> </li>
-                          <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                          <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 12/01/2018, 13:05"</small></p> </li>
-                        </div>
+                          <li><a class="importo">CRISPR-Cas9 creates double-strand breaks</a></li>
+                          <li><span class="causale">Sylvain Moineau and colleagues showed that CRISPR-Cas9 creates double-strand breaks in precise locations.</span> </li>
                         <div class="clear"></div>
                       </ul>
                     </div>
-      
                   </div>
                 </div>
               </div>
             </div>
             
+            <div class="row timeline-movement timeline-movement-top">
+              <div class="timeline-badge timeline-future-movement">
+                  <p>2011</p>
+              </div>
+            </div>
             
             <div class="row timeline-movement">
-              <div class="timeline-badge center-left">
-                
-              </div>
+              <div class="timeline-badge center-left"></div>
               <div class="col-sm-6  timeline-item">
                 <div class="row">
                   <div class="col-sm-11">
                     <div class="timeline-panel credits  anim animate  fadeInLeft">
                       <ul class="timeline-panel-ul">
-                        <div class="lefting-wrap">
-                          <li class="img-wraping"><a href="#"><img src="http://via.placeholder.com/250/000000" class="img-responsive" alt="user-image" /></a></li>
-                        </div>
-                        <div class="righting-wrap">
-                          <li><a href="#" class="importo">Mussum ipsum cacilds</a></li>
-                          <li><span class="causale" style="color:#000; font-weight: 600;">Engineer </span> </li>
-                          <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                          <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11/01/2018, 13:05"</small></p> </li>
-                        </div>
+                          <li><a href="#" class="importo">Discovery of tracrRNA</a></li>
+                          <li><span class="causale">Emmanuelle Charpentier and colleagues performed RNA sequencing on Streptococcus pyogenes, finding that another small RNA which they called tracrRNA, forms a duplex with crRNA that guides Cas9 to targets.</span> </li>
                         <div class="clear"></div>
                       </ul>
                     </div>
@@ -280,6 +174,70 @@
                 </div>
               </div>
             </div>
+
+            <div class="row timeline-movement timeline-movement-top">
+              <div class="timeline-badge timeline-future-movement">
+                  <p>2013</p>
+              </div>
+            </div>
+
+            <div class="row timeline-movement">
+              <div class="timeline-badge center-right"></div>
+              <div class="offset-sm-6 col-sm-6  timeline-item">
+                <div class="row">
+                  <div class="offset-sm-1 col-sm-11">
+                    <div class="timeline-panel debits  anim animate  fadeInRight">
+                      <ul class="timeline-panel-ul">
+                          <li><a class="importo">CRISPR-Cas9 used for genome editing for the first time</a></li>
+                          <li><span class="causale">Feng Zhang,who had experience working with other genome editing technologies such as TALENs became the first person to successfully adapt CRISPR-Cas9 for genome editing in eukaryotic cells.</span> </li>
+                        <div class="clear"></div>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row timeline-movement">
+              <div class="timeline-badge center-left"></div>
+              <div class="col-sm-6  timeline-item">
+                <div class="row">
+                  <div class="col-sm-11">
+                    <div class="timeline-panel credits  anim animate  fadeInLeft">
+                      <ul class="timeline-panel-ul">
+                          <li><a href="#" class="importo">Commercial use of CRISPR</a></li>
+                          <li><span class="causale">CRISPR therapeutics was founded, a company aiming to further research in applications of CRISPR for gene therapy.</span> </li>
+                        <div class="clear"></div>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row timeline-movement timeline-movement-top">
+              <div class="timeline-badge timeline-future-movement">
+                  <p>2023</p>
+              </div>
+            </div>
+
+            <div class="row timeline-movement">
+              <div class="timeline-badge center-right"></div>
+              <div class="offset-sm-6 col-sm-6  timeline-item">
+                <div class="row">
+                  <div class="offset-sm-1 col-sm-11">
+                    <div class="timeline-panel debits  anim animate  fadeInRight">
+                      <ul class="timeline-panel-ul">
+                          <li><a class="importo">Gene Therapy using CRISPR-Cas9</a></li>
+                          <li><span class="causale">The first-ever CRISPR-based therapy is approved in the United States, Great Britain and Bahrain. </span> </li>
+                        <div class="clear"></div>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

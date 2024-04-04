@@ -32,16 +32,16 @@ $(document).ready(function(){
     /**********************Change color of center aligned animated content small Circle  "START"************************************/
     $(document).ready(function(){
         $(" .debits").hover(function(){
-            $(" .center-right").css("background-color", "#4997cd");
+            $(" .center-right").css("background-color", "#5C6F87");
             }, function(){
-            $(" .center-right").css("background-color", "#fff");
+            $(" .center-right").css("background-color", "#F3F1F3");
         }); 
     });
     $(document).ready(function(){
         $(".credits").hover(function(){
-            $(".center-left").css("background-color", "#4997cd");
+            $(".center-left").css("background-color", "#5C6F87");
             }, function(){
-            $(".center-left").css("background-color", "#fff");
+            $(".center-left").css("background-color", "#F3F1F3");
         }); 
     });
     /**********************Change color of center aligned animated content small Circle  "END"************************************/
