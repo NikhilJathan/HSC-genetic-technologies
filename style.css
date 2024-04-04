@@ -28,13 +28,22 @@
 }
 
 .price-bg {
-  background-image: linear-gradient( rgba(0,  0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://images.contentstack.io/v3/assets/blte41c17d7f8dda379/bltcb7b4171ede0f7aa/5b733dc796f9cd9343eb0f0c/crisprcas9.jpg?format=pjpg&quality=40&auto=webp&width=1500);
+  background-image: linear-gradient( rgba(0,  0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://images.contentstack.io/v3/assets/blte41c17d7f8dda379/bltcb7b4171ede0f7aa/5b733dc796f9cd9343eb0f0c/crisprcas9.jpg?format=pjpg&quality=40&auto=webp&width=1500');
+  background-position: center;
+}
+
+.biblio-bg {
+  background-image: linear-gradient( rgba(0,  0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://cdn.vox-cdn.com/thumbor/ZFoP_RRYwzyABawzgPeVrpyiQ6E=/0x0:3000x1800/1200x800/filters:focal(1260x660:1740x1140)/cdn.vox-cdn.com/uploads/chorus_image/image/60457727/CRISPR_LEAD.0.jpg');
   background-position: center;
 }
 
 /*
  * Base structure
  */
+
+ .footer-class {
+  background-color: #2B2C31;
+ }
 
  .mytextsize {
   size: 14px;
